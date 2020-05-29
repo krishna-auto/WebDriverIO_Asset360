@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="EndToEndTest" timestamp="2020-05-29T14:04:41" time="78.532" tests="13" failures="0" errors="11" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="EndToEndTest"/>
+      <property name="capabilities" value="chrome.83_0_4103_61.windowsnt"/>
+      <property name="file" value=".\tests\specs\NotificationsTest.js"/>
+    </properties>
+    <testcase classname="chrome.83_0_4103_61.windowsnt.EndToEndTest" name="NavigateToAccounts" time="0.174"/>
+    <testcase classname="chrome.83_0_4103_61.windowsnt.EndToEndTest" name="VerifyNotifications" time="0.042"/>
+    <testcase classname="chrome.83_0_4103_61.windowsnt.EndToEndTest" name="navigate_to_notifications" time="0.36">
+      <error message="Expected true to be false."/>
+      <system-err>
+        <![CDATA[
+Error: Expected true to be false.
+    at <Jasmine>
+    at <Jasmine>
+    at helpermethods.verifyFlyoutcontainer (D:\WebdriverIO\Asset 360\HelperMethods\Helper.js:34:22)
+    at homePage.navigateToTab (D:\WebdriverIO\Asset 360\pages\HomePage.js:26:16)
+]]>
+      </system-err>
+    </testcase>
+    <testcase classname="chrome.83_0_4103_61.windowsnt.EndToEndTest" name="verifyemail_notifications_section" time="10.123">
+      <error message="Expected true to be false."/>
+      <system-err>
+        <![CDATA[
+Error: Expected true to be false.
+    at <Jasmine>
+    at <Jasmine>
+    at verifyElementDisplayed (D:\WebdriverIO\Asset 360\HelperMethods\Helper.js:62:32)
+    at helpermethods.verifyElement (D:\WebdriverIO\Asset 360\HelperMethods\Helper.js:10:9)
+]]>
+      </system-err>
+    </testcase>
+    <testcase classname="chrome.83_0_4103_61.windowsnt.EndToEndTest" name="Verify_the_default_values_and_dropdown_values" time="0.249">
+      <error message="Expected true to be false."/>
+      <system-err>
+        <![CDATA[
+Error: Expected true to be false.
+    at <Jasmine>
+    at <Jasmine>
+    at verifyElementDisplayed (D:\WebdriverIO\Asset 360\HelperMethods\Helper.js:62:32)
+    at helpermethods.verifyselectedDDvalue (D:\WebdriverIO\Asset 360\HelperMethods\Helper.js:51:9)
+]]>
+      </system-err>
+    </testcase>
+    <testcase classname="chrome.83_0_4103_61.windowsnt.EndToEndTest" name="Verify_send_summary_email_dropdown_values" time="6.031">
+      <error message="Error: element (&quot;//label[contains(text(),'SEND A SUMMARY EMAIL')]/parent::div//div[@class='mat-select-value']&quot;) still not displayed after 6000ms"/>
+      <system-err>
+        <![CDATA[
+Error: element ("//label[contains(text(),'SEND A SUMMARY EMAIL')]/parent::div//div[@class='mat-select-value']") still not displayed after 6000ms
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at helpermethods.clickElement (D:\WebdriverIO\Asset 360\HelperMethods\Helper.js:5:20)
+    at accountPage.clickdrop (D:\WebdriverIO\Asset 360\pages\Nofitications.js:88:20)
+    at UserContext.<anonymous> (D:\WebdriverIO\Asset 360\tests\specs\NotificationsTest.js:37:26)
+]]>
+      </system-err>
+    </testcase>
+    <testcase classname="chrome.83_0_4103_61.windowsnt.EndToEndTest" name="verify_dropdown_values" time="6.085">
+      <error message="Error: element (&quot;//label[contains(text(),'TIME OF THE DAY')]/parent::div//div[@class='mat-select-value']&quot;) still not displayed after 6000ms"/>
+      <system-err>
+        <![CDATA[
+Error: element ("//label[contains(text(),'TIME OF THE DAY')]/parent::div//div[@class='mat-select-value']") still not displayed after 6000ms
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at helpermethods.clickElement (D:\WebdriverIO\Asset 360\HelperMethods\Helper.js:5:20)
+    at accountPage.clickdrop (D:\WebdriverIO\Asset 360\pages\Nofitications.js:92:20)
+    at UserContext.<anonymous> (D:\WebdriverIO\Asset 360\tests\specs\NotificationsTest.js:41:26)
+]]>
+      </system-err>
+    </testcase>
+    <testcase classname="chrome.83_0_4103_61.windowsnt.EndToEndTest" name="select_daily_from_dropdown_and_verify_dropdown_values" time="6.04">
+      <error message="Error: element (&quot;//label[contains(text(),'SEND A SUMMARY EMAIL')]/parent::div//div[@class='mat-select-value']&quot;) still not displayed after 6000ms"/>
+      <system-err>
+        <![CDATA[
+Error: element ("//label[contains(text(),'SEND A SUMMARY EMAIL')]/parent::div//div[@class='mat-select-value']") still not displayed after 6000ms
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at helpermethods.clickElement (D:\WebdriverIO\Asset 360\HelperMethods\Helper.js:5:20)
+    at accountPage.selectddvalue (D:\WebdriverIO\Asset 360\pages\Nofitications.js:117:20)
+    at UserContext.<anonymous> (D:\WebdriverIO\Asset 360\tests\specs\NotificationsTest.js:45:26)
+]]>
+      </system-err>
+    </testcase>
+    <testcase classname="chrome.83_0_4103_61.windowsnt.EndToEndTest" name="select_weekly_from_dropdown_and_verify_dropdown_values" time="6.025">
+      <error message="Error: element (&quot;//label[contains(text(),'SEND A SUMMARY EMAIL')]/parent::div//div[@class='mat-select-value']&quot;) still not displayed after 6000ms"/>
+      <system-err>
+        <![CDATA[
+Error: element ("//label[contains(text(),'SEND A SUMMARY EMAIL')]/parent::div//div[@class='mat-select-value']") still not displayed after 6000ms
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at helpermethods.clickElement (D:\WebdriverIO\Asset 360\HelperMethods\Helper.js:5:20)
+    at accountPage.selectddvalue (D:\WebdriverIO\Asset 360\pages\Nofitications.js:117:20)
+    at UserContext.<anonymous> (D:\WebdriverIO\Asset 360\tests\specs\NotificationsTest.js:51:26)
+]]>
+      </system-err>
+    </testcase>
+    <testcase classname="chrome.83_0_4103_61.windowsnt.EndToEndTest" name="change_dropdown_values" time="6.059">
+      <error message="Error: element (&quot;//label[contains(text(),'TIME OF THE DAY')]/parent::div//div[@class='mat-select-value']&quot;) still not displayed after 6000ms"/>
+      <system-err>
+        <![CDATA[
+Error: element ("//label[contains(text(),'TIME OF THE DAY')]/parent::div//div[@class='mat-select-value']") still not displayed after 6000ms
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at helpermethods.clickElement (D:\WebdriverIO\Asset 360\HelperMethods\Helper.js:5:20)
+    at accountPage.selectddvalue (D:\WebdriverIO\Asset 360\pages\Nofitications.js:119:20)
+    at UserContext.<anonymous> (D:\WebdriverIO\Asset 360\tests\specs\NotificationsTest.js:60:26)
+]]>
+      </system-err>
+    </testcase>
+    <testcase classname="chrome.83_0_4103_61.windowsnt.EndToEndTest" name="verify_revert_apply_buttons" time="0.117">
+      <error message="Expected true to be false."/>
+      <system-err>
+        <![CDATA[
+Error: Expected true to be false.
+    at <Jasmine>
+    at <Jasmine>
+    at verifyElementDisplayed (D:\WebdriverIO\Asset 360\HelperMethods\Helper.js:62:32)
+    at helpermethods.verifyElement (D:\WebdriverIO\Asset 360\HelperMethods\Helper.js:10:9)
+]]>
+      </system-err>
+    </testcase>
+    <testcase classname="chrome.83_0_4103_61.windowsnt.EndToEndTest" name="click_apply_and_verify_default_values" time="6.031">
+      <error message="Error: element (&quot;//button//div[contains(text(),'Apply')]&quot;) still not displayed after 6000ms"/>
+      <system-err>
+        <![CDATA[
+Error: element ("//button//div[contains(text(),'Apply')]") still not displayed after 6000ms
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at helpermethods.clickElement (D:\WebdriverIO\Asset 360\HelperMethods\Helper.js:5:20)
+    at accountPage.clickButton (D:\WebdriverIO\Asset 360\pages\Nofitications.js:51:24)
+    at UserContext.<anonymous> (D:\WebdriverIO\Asset 360\tests\specs\NotificationsTest.js:69:26)
+]]>
+      </system-err>
+    </testcase>
+    <testcase classname="chrome.83_0_4103_61.windowsnt.EndToEndTest" name="verify_close_button_functionality" time="6.032">
+      <error message="Error: element (&quot;//button//div[contains(text(),'Close')]&quot;) still not displayed after 6000ms"/>
+      <system-err>
+        <![CDATA[
+Error: element ("//button//div[contains(text(),'Close')]") still not displayed after 6000ms
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at helpermethods.clickElement (D:\WebdriverIO\Asset 360\HelperMethods\Helper.js:5:20)
+    at accountPage.clickButton (D:\WebdriverIO\Asset 360\pages\Nofitications.js:48:24)
+    at UserContext.<anonymous> (D:\WebdriverIO\Asset 360\tests\specs\NotificationsTest.js:74:26)
+]]>
+      </system-err>
+    </testcase>
+  </testsuite>
+</testsuites>
