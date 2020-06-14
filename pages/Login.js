@@ -20,7 +20,7 @@ let loginpage = function(){
 
     this.clickLogin = function() {
         helper.clickElement(loginButton);
-        $("//i[contains(@class,'settings')]").waitForDisplayed({ timeout: 20000 });
+        //$("//i[contains(@class,'settings')]").waitForDisplayed({ timeout: 20000 });
     }
 }
 

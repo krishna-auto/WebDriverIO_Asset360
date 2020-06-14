@@ -8,7 +8,7 @@ describe('EndToEndTest',function(){
         loginpage.launchbrowser();
         loginpage.enterUsername();
         loginpage.enterPassword();
-        loginpage.clickLogin('clickLogin');
+        loginpage.clickLogin();
     })
     /*xit('NavigateToAccounts',function() {
         homepage.clickOnAccountIcon();
