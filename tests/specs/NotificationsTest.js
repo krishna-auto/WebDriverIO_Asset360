@@ -10,7 +10,7 @@ describe('EndToEndTest',function(){
         loginpage.enterPassword('Acquire123$');
         loginpage.clickLogin('clickLogin');
     },40000)
-    xit('NavigateToAccounts',function() {
+    /*xit('NavigateToAccounts',function() {
         homepage.clickOnAccountIcon();
     },300000)
     xit('VerifyNotifications',function(){
@@ -74,7 +74,7 @@ describe('EndToEndTest',function(){
         notificationpage.clickButton('close');
         
     })
-    
+    */
 
     
 })
