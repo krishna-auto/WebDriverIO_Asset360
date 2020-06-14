@@ -9,7 +9,7 @@ let loginpage = function(){
         
         browser.url('https://cloud.dev.altusplatform.com/');
         //browser.maximizeWindow();
-        $(userName).waitForDisplayed({ timeout: 15000 });
+        $(userName).waitForDisplayed({ timeout: 20000 });
     }
     this.enterUsername  = function(){
         $(userName).setValue('santosh+admin030719031744@argusexpresstest.com');

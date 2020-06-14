@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="EndToEndTest" timestamp="2020-06-14T22:00:58" time="21.872" tests="1" failures="0" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="EndToEndTest"/>
+      <property name="capabilities" value="chrome.83_0_4103_97.windowsnt"/>
+      <property name="file" value=".\tests\specs\NotificationsTest.js"/>
+    </properties>
+    <testcase classname="chrome.83_0_4103_97.windowsnt.EndToEndTest" name="Login" time="21.854">
+      <error message="Error: element (&quot;//input[@name='username']&quot;) still not displayed after 15000ms"/>
+      <system-err>
+        <![CDATA[
+Error: element ("//input[@name='username']") still not displayed after 15000ms
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at loginpage.launchbrowser (D:\WebdriverIO\Asset 360\pages\Login.js:12:21)
+    at UserContext.<anonymous> (D:\WebdriverIO\Asset 360\tests\specs\NotificationsTest.js:8:19)
+]]>
+      </system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

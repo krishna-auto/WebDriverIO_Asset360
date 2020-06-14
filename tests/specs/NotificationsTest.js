@@ -4,12 +4,12 @@ describe('EndToEndTest',function(){
     let loginpage = require('../../pages/Login');
     let homepage = require('../../pages/HomePage')
     let notificationpage = require('../../pages/Nofitications');
-    beforeAll(function(){
+    it('Login',function(){
         loginpage.launchbrowser();
-        loginpage.enterUsername('santosh+admina2180919031844@argusexpresstest.com');
-        loginpage.enterPassword('Acquire123$');
+        loginpage.enterUsername();
+        loginpage.enterPassword();
         loginpage.clickLogin('clickLogin');
-    },40000)
+    })
     /*xit('NavigateToAccounts',function() {
         homepage.clickOnAccountIcon();
     },300000)
