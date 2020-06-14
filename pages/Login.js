@@ -12,7 +12,7 @@ let loginpage = function(){
         $(userName).waitForDisplayed({ timeout: 15000 });
     }
     this.enterUsername  = function(){
-        $(userName).setValue('santosh+admina2180919031844@argusexpresstest.com');
+        $(userName).setValue('santosh+admin030719031744@argusexpresstest.com');
     }
     this.enterPassword = function(){
         $(password).setValue('Acquire123$');

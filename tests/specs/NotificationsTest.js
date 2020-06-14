@@ -10,17 +10,17 @@ describe('EndToEndTest',function(){
         loginpage.enterPassword('Acquire123$');
         loginpage.clickLogin('clickLogin');
     },40000)
-    it('NavigateToAccounts',function() {
+    xit('NavigateToAccounts',function() {
         homepage.clickOnAccountIcon();
     },300000)
-    it('VerifyNotifications',function(){
+    xit('VerifyNotifications',function(){
         homepage.verifytabunderpreferences('notifications');
     })
-    it('navigate to notifications',function(){
+    xit('navigate to notifications',function(){
         homepage.navigateToTab('notifications');
         
     })
-    it('verifyemail notifications section',function(){
+    xit('verifyemail notifications section',function(){
         notificationpage.verifyHeaderIntroText();
         notificationpage.verifyToggleEnabled("email notifications",'true');
         notificationpage.verifyActiveSummaryEmailSection();
@@ -28,26 +28,26 @@ describe('EndToEndTest',function(){
         notificationpage.verifyToggleEnabled("number of pending tasks",'true');
         
     })
-    it('Verify the default values and dropdown values',function(){
+    xit('Verify the default values and dropdown values',function(){
         notificationpage.verifyselecteddropdownvalue("send a summary email","Daily");
         notificationpage.verifyselecteddropdownvalue("time of the day","09:00 AM");
         notificationpage.VerifyCloseButton();
     })
-    it('Verify send summary email dropdown values',function(){
+    xit('Verify send summary email dropdown values',function(){
         notificationpage.clickdrop('summary');
         notificationpage.verifyDropdownValues('summary');
     })
-    it('verify dropdown values',function(){
+    xit('verify dropdown values',function(){
         notificationpage.clickdrop('time');
         notificationpage.verifyDropdownValues('time');
     })
-    it('select daily from dropdown and verify dropdown values',function(){
+    xit('select daily from dropdown and verify dropdown values',function(){
         notificationpage.selectddvalue('Daily','summary');
         notificationpage.verifyselecteddropdownvalue("send a summary email","Daily");
         notificationpage.clickdrop('summary');
       notificationpage.verifyDropdownValues('summary');
     })
-    it('select weekly from dropdown and verify dropdown values',function(){
+    xit('select weekly from dropdown and verify dropdown values',function(){
         notificationpage.selectddvalue('Weekly','summary');
         notificationpage.verifyselecteddropdownvalue("send a summary email","Weekly");
         notificationpage.clickdrop('week');
@@ -55,22 +55,22 @@ describe('EndToEndTest',function(){
         notificationpage.verifyDropdownValues('week');
         
     })
-    it('change dropdown values',function(){
+    xit('change dropdown values',function(){
         //verify the time doesn't change after change in summary value
         notificationpage.selectddvalue('05:00 AM','time');
         notificationpage.selectddvalue('Daily','summary');
         notificationpage.verifyselecteddropdownvalue("time of the day","05:00 AM");
 
     })
-    it('verify revert apply buttons',function(){
+    xit('verify revert apply buttons',function(){
         notificationpage.VerifyRevertApply();
     })
-    it('click apply and verify default values',function(){
+    xit('click apply and verify default values',function(){
         notificationpage.clickButton('apply');
         notificationpage.selectddvalue('Daily','summary');
         notificationpage.verifyselecteddropdownvalue("send a summary email","Daily");
     })
-    it('verify close button functionality',function(){
+    xit('verify close button functionality',function(){
         notificationpage.clickButton('close');
         
     })
